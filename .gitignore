@@ -1,0 +1,109 @@
+# ============================================================================
+# Python
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/    
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================================================
+# Virtual environments
+# ============================================================================
+.venv/
+venv/
+ENV/
+env/
+.conda/
+.python-version
+pip-wheel-metadata/
+
+# ============================================================================
+# Streamlit
+# ============================================================================
+.streamlit/secrets.toml
+.streamlit/config.toml
+!.streamlit/config.toml.example
+
+# ============================================================================
+# Environment variables
+# ============================================================================
+.env
+.env.*
+
+# ============================================================================
+# IDE / Editors
+# ============================================================================
+.vscode/
+!.vscode/settings.json.example
+
+
+# ============================================================================
+# OS
+# ============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================================================
+# Project-specific
+# ============================================================================
+
+# Runtime artifacts
+temp/
+tmp/
+*.tmp
+uploads/
+outputs/
+exports/
+
+# Uploaded / processed invoices — never commit user data
+samples/
+
+
+# Tesseract / OCR temp
+tesseract_temp/
+ocr_cache/
+
+# Logs
+*.log
+logs/
+streamlit.log
+
+# Local databases / stores
+*.db
+*.sqlite
+*.sqlite3
+
+# Extracted secrets
+*.pem
+*.key
+credentials.json
+
+# Build artifacts for deployment
+.streamlit/secrets.toml
+secrets.toml
+
+*.zip
